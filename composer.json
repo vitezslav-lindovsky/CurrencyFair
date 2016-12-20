@@ -1,0 +1,15 @@
+{
+    "name": "CurrencyFair Test",
+    "description": "CurrencyFair Test",
+
+    "require": {
+        "php": ">=7",
+        "phpunit/phpunit": "4.8.*"
+    },
+
+	"autoload": {
+		"psr-4": {
+			"CFTest\\": "CFTest/"
+		}
+	}
+}
